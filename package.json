@@ -2,22 +2,22 @@
   "name": "variation-viewer",
   "description": "A visualisation for variation data",
   "version": "0.1.0",
-  "homepage": "https://github.com/xwatkins/variation-viewer",
+  "homepage": "https://github.com/xwatkins/biojs-vis-variation",
   "author": {
     "name": "Xavier Watkins",
     "email": "xavier.watkins@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/xwatkins/variation-viewer.git"
+    "url": "git://github.com/xwatkins/biojs-vis-variation.git"
   },
   "bugs": {
-    "url": "https://github.com/xwatkins/variation-viewer/issues"
+    "url": "git://github.com/xwatkins/biojs-vis-variation/issues"
   },
   "licenses": [
     {
       "type": "Apache 2",
-      "url": "https://github.com/xwatkins/variation-viewer/blob/master/LICENSE"
+      "url": "https://github.com/xwatkins/biojs-vis-variation/blob/master/LICENSE"
     }
   ],
   "main": "lib/variationviewer.js",
