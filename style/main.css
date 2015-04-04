@@ -1,0 +1,58 @@
+svg {
+}
+
+#svg-container {
+}
+
+.axis path {
+  display: none;
+}
+
+.axis text {
+  font-size: 10px;
+  font-family: 'Helvetica neue', Helvetica, Arial, sans-serif;
+}
+
+.y.axis line {
+  stroke:#ccc;
+  opacity: .4;
+}
+
+.x.axis line {
+  stroke:#000;
+}
+
+#main-seq path {
+  fill:none;
+  stroke:green;
+}
+
+#main-seq circle {
+  fill:#fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.main-sequence {
+  color: green;
+}
+
+.benign {
+  color:lightgreen;
+}
+
+.mixed {
+  color:lightskyblue;
+}
+
+.deleterious {
+  color:crimson;
+}
+
+.stop-gain {
+  color: teal;
+}
+
+svg.overview {
+  display: block;
+}
