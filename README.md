@@ -1,40 +1,24 @@
 # Variation viewer
 
-[![NPM version](http://img.shields.io/npm/v/variation-viewer.svg)](https://www.npmjs.org/package/variation-viewer) 
-[![Build Status](https://secure.travis-ci.org/xwatkins/variation-viewer.png?branch=master)](http://travis-ci.org/xwatkins/variation-viewer) 
+[![NPM version](http://img.shields.io/npm/v/biojs-vis-variation.svg)](https://www.npmjs.org/package/biojs-vis-variation) 
+[![Build Status](https://secure.travis-ci.org/xwatkins/biojs-vis-variation.png?branch=master)](http://travis-ci.org/xwatkins/biojs-vis-variation) 
 
 > A visualisation for variation data
 
 ## Getting Started
-Install the module with: `npm install variation-viewer`
+Install the module with: `npm install biojs-vis-variation`
 
 ```javascript
 var variationviewer = require('variation-viewer');
-variationviewer.hello("biojs"); // "hello biojs"
-```
-
-## Documentation
-
-#### .hello(name)
-
-**Parameter**: `name`
-**Type**: `String`
-**Example**: `biojs`
-
-The 'hello' method is responsible for showing a name.
-
-How to use this method
-
-```javascript
-variationviewer.hello('biojs'); // "hello biojs"
+new variationviewer({el: yourDiv, id: 'P45985'});
 ```
 
 ## Contributing
 
-Please submit all issues and pull requests to the [xwatkins/variation-viewer](http://github.com/xwatkins/variation-viewer) repository!
+Please submit all issues and pull requests to the [xwatkins/biojs-vis-variation](http://github.com/xwatkins/biojs-vis-variation) repository!
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/xwatkins/variation-viewer/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/xwatkins/biojs-vis-variation/issues).
 
 ## License 
 
