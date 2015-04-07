@@ -74,6 +74,9 @@
     ],
     "first": "simple_example"
   },
+  "biojs": {
+    "registryHeight": "520px"
+  },
   "keywords": [
     "variation",
     "biojs"
