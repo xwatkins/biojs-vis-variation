@@ -9,7 +9,7 @@
 Install the module with: `npm install biojs-vis-variation`
 
 ```javascript
-var variationviewer = require('variation-viewer');
+var variationviewer = require('biojs-vis-variation');
 new variationviewer({el: yourDiv, id: 'P45985'});
 ```
 
