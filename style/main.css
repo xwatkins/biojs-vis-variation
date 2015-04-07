@@ -4,6 +4,12 @@ svg {
 #svg-container {
 }
 
+.viewport {
+    stroke: grey;
+    fill: black;
+    fill-opacity: 0.2;
+}
+
 .axis path {
   display: none;
 }
@@ -22,12 +28,7 @@ svg {
   stroke:#000;
 }
 
-#main-seq path {
-  fill:none;
-  stroke:green;
-}
-
-#main-seq circle {
+circle.main-seq {
   fill:#fff;
   stroke: steelblue;
   stroke-width: 1.5px;
@@ -55,4 +56,20 @@ svg {
 
 svg.overview {
   display: block;
+}
+
+.overview .block-area {
+  fill:lightgrey;
+  stroke:none;
+}
+
+.overview .line {
+  fill:none;
+  stroke:darkgrey;
+  stroke-width:1px;
+}
+
+.overlay {
+    stroke-width: 0px;
+    fill-opacity: 0;
 }
