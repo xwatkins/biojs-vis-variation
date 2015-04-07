@@ -20,14 +20,14 @@ chai.should();
 // requires your main app (specified in index.js)
 var variationviewer = require('../..');
 
-describe('variation-viewer module', function(){
-  describe('#hello()', function(){
-    it('should return a hello', function(){
+// describe('variation-viewer module', function(){
+//   describe('#hello()', function(){
+//     it('should return a hello', function(){
 
-      assert.equal(variationviewer.hello('biojs'), ("hello biojs"));
+//       assert.equal(variationviewer.hello('biojs'), ("hello biojs"));
       
-      // alternative styles
-      variationviewer.hello('biojs').should.equal("hello biojs");
-    });
-  });
-});
+//       // alternative styles
+//       variationviewer.hello('biojs').should.equal("hello biojs");
+//     });
+//   });
+// });

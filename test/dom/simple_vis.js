@@ -18,12 +18,3 @@ var yourDiv = document.getElementById('mocha');
 // requires your main app (specified in index.js)
 var variationviewer = require('../..');
 
-describe('variation-viewer module', function(){
-  describe('#init()', function(){
-    it('should fill the textBox', function(){
-      var opts = {el: yourDiv, text: 'biojs'};
-      var instance = new variationviewer(opts);
-      assert.equal(yourDiv.textContent,"hello biojs");
-    });
-  });
-});
