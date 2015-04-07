@@ -1,7 +1,7 @@
 {
-  "name": "variation-viewer",
+  "name": "biojs-vis-variation",
   "description": "A visualisation for variation data",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/xwatkins/biojs-vis-variation",
   "author": {
     "name": "Xavier Watkins",
@@ -76,7 +76,6 @@
   },
   "keywords": [
     "variation",
-    "biojs",
     "biojs"
   ]
 }
