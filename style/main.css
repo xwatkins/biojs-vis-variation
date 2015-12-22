@@ -63,6 +63,13 @@ svg.overview {
   stroke:none;
 }
 
+.main-seq-line {
+  fill:none;
+  stroke:blue;
+  stroke-width:4px;
+  opacity: .1;
+}
+
 .overview .line {
   fill:none;
   stroke:darkgrey;
